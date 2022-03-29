@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply font-medium transition-all duration-500 cursor-pointer  hover:text-secondary;
+  }
+
+  .title {
+    @apply mb-4 font-medium text-xl sm:text-2xl md:text-3xl;
+  }
+
+  .paragraph {
+    @apply mb-2 leading-6;
+  }
+
+  .paragraph-link {
+    @apply text-secondary;
+  }
+
+  .section {
+    @apply mb-8;
+  }
+}
