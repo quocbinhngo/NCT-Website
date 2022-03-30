@@ -17,7 +17,7 @@ const Slider = () => {
         pagination={true}
         modules={[Pagination, Autoplay]}
         loop={true}
-        autoplay={{ delay: 1500 }}
+        autoplay={{ delay: 2500 }}
         grabCursor={true}
         className="mySwiper h-28 sm:h-48 md:h-72 lg:h-80"
       >
